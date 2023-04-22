@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuWallpaper"
+        android:name="com.prilojenie.wally.Wallpapermain"
+        android:label="Wallpapers"
+        tools:layout="@layout/wallpaper_main" />
+
+    <fragment
+        android:id="@+id/menuWallpaperChanger"
+        android:name="com.prilojenie.wally.WallpaperSwitcher"
+        android:label="Wallpaper Switcher"
+        tools:layout="@layout/wallpaper_switcher" />
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.prilojenie.wally.Profile"
+        android:label="Profile"
+        tools:layout="@layout/profile" />
+
+    <fragment
+        android:id="@+id/menuNotepad"
+        android:name="com.prilojenie.wally.Notepad"
+        android:label="Notepad"
+        tools:layout="@layout/notepad" />
+
+    <fragment
+        android:id="@+id/menuRingtone"
+        android:name="com.prilojenie.wally.Ringtonemain"
+        android:label="Ringtones"
+        tools:layout="@layout/ringtone_main" />
+
+    <fragment
+        android:id="@+id/menuSettings"
+        android:name="com.prilojenie.wally.Settings"
+        android:label="Settings"
+        tools:layout="@layout/settings" />
+
+    <fragment
+        android:id="@+id/menuPaint"
+        android:name="com.prilojenie.wally.Paint"
+        android:label="Paint"
+        tools:layout="@layout/paint" />
+
+
+</navigation>
